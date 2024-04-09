@@ -9,11 +9,16 @@ import Home_1 from './Component/Home_1'
 import Faq_1 from './Component/Faq_1'
 import Footer from './Component/Footer'
 
+import Acoordian from './Component/DaisyUi/Acoordian'
+import Craw from './Component/DaisyUi/Craw'
+import Rating from './Component/DaisyUi/Rating'
+
 function App() {
   return (
  <>
  <Header/>
- 
+ <Craw/>
+
 <Routes>
   <Route path = '/' element = {<Home_1/>} />
   <Route path = '/contact' element={<Contact_1/>}/>
@@ -26,6 +31,8 @@ function App() {
 
 
 <Footer/>
+
+<div className="text-center"><Rating/></div>
  </>
   )
 }

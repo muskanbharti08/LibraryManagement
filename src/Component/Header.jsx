@@ -18,9 +18,9 @@ export default function Header() {
             <NavLink to='/auther' >AuthercheckList</NavLink>
             <NavLink to='/blog'>Blog</NavLink>
             <NavLink to='/contact' >Contact</NavLink>
-            <NavLink to='/blog' >Blog</NavLink>
-            <NavLink to ='fq'>FAQ</NavLink>
+            <NavLink to ='/fq'>FAQ</NavLink>
           </div>
+          
       
       </div>
 

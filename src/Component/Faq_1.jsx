@@ -1,7 +1,13 @@
 import React from 'react'
+import FaxAccordian from './FaxAccordian'
 
 export default function Faq_1() {
   return (
-    <div>Faq_1</div>
+    <div>
+      <FaxAccordian/>
+    
+    </div>
+
+
   )
 }
