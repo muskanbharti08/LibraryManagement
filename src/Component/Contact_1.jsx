@@ -15,12 +15,12 @@ export default function Contact_1() {
         </div>
 
       </div>
-      <div className="sm:flex px-4 sm:px-10 mb-10">
+      <div className="sm:flex px-4 sm:px-10 mb-10 ">
 
         <Contact_2 />
         <Contact_3 />
       </div>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3903.2762737789585!2d79.80331717371418!3d11.955364036345777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a53613fe9fded47%3A0xd48d53e58ddfca4f!2s29%2C%209th%20Cross%20St%2C%20Kurinji%20Nagar%2C%20Lawspet%2C%20Puducherry%2C%20605008!5e0!3m2!1sen!2sin!4v1712734616378!5m2!1sen!2sin" className='w-10/12 sm:w-1/2 h-64 rounded-lg mx-auto'  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3903.2762737789585!2d79.80331717371418!3d11.955364036345777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a53613fe9fded47%3A0xd48d53e58ddfca4f!2s29%2C%209th%20Cross%20St%2C%20Kurinji%20Nagar%2C%20Lawspet%2C%20Puducherry%2C%20605008!5e0!3m2!1sen!2sin!4v1712734616378!5m2!1sen!2sin" className='w-10/12 sm:w-1/2 h-64 rounded-lg mx-auto my-4'  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
     </>
   )

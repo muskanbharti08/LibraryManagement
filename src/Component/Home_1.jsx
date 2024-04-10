@@ -3,7 +3,7 @@ import Craw from './DaisyUi/Craw'
 export default function Home_1() {
   return (
     <div>
-       <Craw/>
+       home
     </div>
   )
 }

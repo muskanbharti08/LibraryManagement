@@ -36,7 +36,7 @@ let f = "/contact"
       <List>
         {['Home', 'service', 'AutherCheckList', 'Blog', 'FAQ','Contact'].map((text, index) => (
           
-          <NavLink className={({isActive})=>`${isActive?"font-bold text-blue-400 ":"text-black"}`} to ={text==="Home"?a:text==="service"?b:text==="AutherCheckList"?c:text==="Blog"?d:text==="FAQ"?e:text==="Contact"?f:" "}>
+          <NavLink className={({isActive})=>`${isActive?"font-bold text-blue-400 bg-slate-400":"text-black"}`} to ={text==="Home"?a:text==="service"?b:text==="AutherCheckList"?c:text==="Blog"?d:text==="FAQ"?e:text==="Contact"?f:" "}>
           <ListItem key={text} disablePadding>
             <ListItemButton>
               <ListItemIcon>

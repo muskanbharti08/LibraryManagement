@@ -6,15 +6,15 @@ import ImageListItemBar from '@mui/material/ImageListItemBar';
 export default function BlogImage() {
   return (
   <div className="flex justify-center   ">
-          <ImageList className='w-10/12 sm:w-1/2 '>
+          <ImageList className='w-10/12 sm:w-1/2  '>
       {itemData.map((item) => (
-        <ImageListItem key={item.img}>
-          <img className='hover:rotate-2 h-60 hover:origin-center transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 ' 
+        <ImageListItem  key={item.img}>
+            <div className="overflow-hidden"> <img className='hover:rotate-2 h-60  w-96 overflow-hidden hover:origin-center transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500  duration-300 ' 
             srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x `}
             src={`${item.img}?w=248&fit=crop&auto=format`}
             alt={item.title}
             loading="lazy"
-          />
+          /></div>
           <ImageListItemBar
             title={item.title}
             subtitle={<span>by: {item.author}</span>}

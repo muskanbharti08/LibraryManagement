@@ -13,13 +13,13 @@ export default function Contact_3() {
 
         {/* input tags */}
         <div className="flex-col space-y-4  ">
-          <h1 className=""> <input type="text" className="border border-gray-500 rounded-full py-1 px-4 space-x-5" placeholder="Full Name" /></h1>
-          <h1 className=""><input type="text" className="border border-gray-500 rounded-full py-1 px-4 space-x-5" placeholder="Email" />
-          </h1>
-          <h1 className=""><input type="text" className="border border-gray-500 rounded-full py-1 px-4 space-x-5" placeholder="Mobile" />
-          </h1>
-          <textarea name="" id="" cols="22" rows="5" placeholder="Your Message" className='border border-gray-500 rounded-xl space-x-5 px-4 py-2'></textarea>
-          <div className=""><button className="border border-white bg-blue-500 rounded-full px-3 py-1">Submit</button></div>
+           <input type="text" className="border w-full border-gray-500 rounded-full py-1 px-4 space-x-5" placeholder="Full Name" />
+          <input type="text" className="border w-full border-gray-500 rounded-full py-1 px-4 space-x-5" placeholder="Email" />
+          
+         <input type="text" className="border w-full border-gray-500 rounded-full py-1 px-4 space-x-5" placeholder="Mobile" />
+         
+          <textarea name="" id="" cols="" rows="5" placeholder="Your Message" className='border w-full border-gray-500 rounded-xl space-x-5 px-4 py-2'></textarea>
+          <div className="flex justify-center"><button className=" w-1/2 sm:w-1/4   font-bold text-white bg-blue-500 hover:bg-blue-700 rounded-full px-3 py-1">Submit</button></div>
         </div>
       </div>
 

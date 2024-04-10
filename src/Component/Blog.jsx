@@ -4,7 +4,7 @@ import BlogImage from './BlogImage'
 export default function Blog() {
   return (
    <>
-   <div className="sm:space-y-8 sm:mb-20">
+   <div className="sm:space-y-8 sm:mb-20 ">
    <Blog_1/>
    <BlogImage/>
    </div>
