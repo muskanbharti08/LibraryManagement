@@ -1,4 +1,4 @@
-import { useState } from 'react'
+
 import Header from './Component/Header'
 import { Route,Routes } from 'react-router-dom'
 import Service from './Component/Service'
@@ -8,8 +8,6 @@ import Blog from './Component/Blog'
 import Home_1 from './Component/Home_1'
 import Faq_1 from './Component/Faq_1'
 import Footer from './Component/Footer'
-
-import Acoordian from './Component/DaisyUi/Acoordian'
 import Craw from './Component/DaisyUi/Craw'
 import Rating from './Component/DaisyUi/Rating'
 
@@ -17,7 +15,7 @@ function App() {
   return (
  <>
  <Header/>
- <Craw/>
+
 
 <Routes>
   <Route path = '/' element = {<Home_1/>} />
@@ -30,9 +28,10 @@ function App() {
 </Routes>
 
 
+
 <Footer/>
 
-<div className="text-center"><Rating/></div>
+{/* <div className="text-center"><Rating/></div> */}
  </>
   )
 }
